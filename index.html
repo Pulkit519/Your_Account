@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-11</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 90%;
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-collapse: separate;
+            border-spacing: 0;
+            text-align: center;
+            border: 3px solid rgb(53, 53, 131);
+            border-radius: 10px;
+        }
+        #title{
+            background-color: rgb(53, 53, 131);
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            color: white;
+        }
+        thead #Heading th{
+            border-bottom: 3px solid grey;
+        }
+        td{
+            padding: 10px;
+        }
+        th{
+            padding: 10px;
+        }
+        tbody .Name{
+            text-align: left;
+        }
+        tbody td{
+            border-bottom: 2px solid lightgrey;
+            height: 40px;
+        }
+        tbody a{
+            text-decoration: none;
+            color: grey;
+        }
+        tbody tr:last-child td{
+            border-bottom: none;
+        }
+        tbody .checked{
+            color: green;
+        }
+        tbody .un-checked{
+            color: red;
+        }
+        tbody .fa-pencil-square-o,tbody .fa-trash{
+            font-size: 25px;
+        }
+        tbody .fa-pencil-square-o:hover{
+            color: blue;
+        }
+        tbody .fa-trash:hover{
+            color: red;
+        }
+        i{
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <thead>
+            <tr>
+                <th id="title" colspan="5" align="center">YOUR ACCOUNT</th>
+            </tr>
+            <tr id="Heading">
+                <th>#</th>
+                <th width=50% align="left"> Name</th>
+                <th>Link </th>
+                <th>Status</th>
+                <th >Tools</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td class="Name">Booked Ticket History.</td>
+                <td><a href="https://pulkit519.github.io/Practical-1/Practical-1.html" target="_blank">Click Here</a></td>
+                <td class="checked">Update minute ago</td>
+                <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td class="Name">Cancel Ticket History.</td>
+                <td><a href="https://pulkit519.github.io/Practical_2/Practical-2.html" target="_blank">Click Here</a></td>
+                <td class="checked">Update minute ago</td>
+                <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td class="Name">Refund History.</td>
+                <td><a href="https://pulkit519.github.io/Practical-3/Practical3.html" target="_blank">Click Here</a></td>
+                <td class="checked">Update minute ago</td>
+                <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td class="Name">Pending Tickets.</td>
+                <td><a href="https://pulkit519.github.io/Practical-4/Practical-4.html" target="_blank">Click Here</a></td>
+                <td class="checked">Update minute ago</td>
+                <td><i class="fa fa-pencil-square-o" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
